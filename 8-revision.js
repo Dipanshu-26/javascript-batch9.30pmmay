@@ -57,3 +57,60 @@ else if(z>x && z>y){
 else {
     console.log("bigger 2 or all are equal")
 }
+
+//-------------------------------------------------------------
+
+//condition ? stmt 1 if true : stmt 2 if false 
+
+//even odd
+
+let num=18
+num%2 == 0 ? console.log("even"):console.log("odd")
+
+num%2 != 0 ?console.log("odd") : console.log("even")
+
+//can drive 
+let age = 19
+age >=18 ? console.log("can drive") : console.log("can not drive")
+
+let isLogin = false
+
+isLogin ? console.log("welcome!!") : console.log("please login again..")
+
+//-----------------------------------------------------------------------------------
+
+//swich case 
+let food = "Milk"
+switch(food){
+    case "banana":
+    case "Banana":
+        console.log("fruits")
+        break
+    case "potato":
+    case "Potato":    
+        console.log("vegitables") 
+        break  
+    case "milk":
+    case "Milk":
+        console.log("dairy")  
+        break
+    default:
+        console.log("snacks")       
+}
+
+
+food = "Banana" 
+let isTrue = true
+switch(isTrue){                                              //switch (true)
+    case (food == "banana" || food == "Banana"):               //false 
+        console.log("fruits")
+        break
+    case(food == "potato" || food== "Potato"):              //false
+                console.log("vegitables") 
+        break  
+    case (food == "milk" || food == "Milk"):                //case true
+            console.log("dairy")  
+        break
+    default:
+        console.log("snacks")       
+}
