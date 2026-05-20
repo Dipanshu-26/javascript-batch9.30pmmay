@@ -1,0 +1,144 @@
+
+//Falsy : false ,0 ,undefined, null, NaN, ""
+// true , any thing other than falsy values are truthy
+
+if(0){
+    console.log("hello")
+}
+else{
+    console.log("bye")
+}
+//----------------------------------------------
+
+let x =0 
+if(x==0){
+    console.log("hello")
+}
+else{
+    console.log("bye")
+}
+//----------------------------------------------------
+
+if(undefined){
+    console.log("hello")
+}
+else{
+    console.log("bye")
+}
+//----------------------------------------------------
+x==undefined
+if(x==undefined){
+    console.log("hello")
+}
+else{
+    console.log("bye")
+}
+//----------------------------------------------------
+console.log("------------------------------------")
+if(NaN){
+    console.log("hello")
+}
+else{
+    console.log("bye")
+}
+//-------------------------------------------------------
+console.log("------------------------------------")
+//NaN is not equal to anything not even NaN
+let a = NaN
+if(a==NaN){
+    console.log("hello")
+}
+else{
+    console.log("bye")
+}
+//-------------------------------------------------------
+console.log("------------------------------------")
+if(isNaN(a)){
+    console.log("hello")
+}
+else{
+    console.log("bye")
+}
+
+//-------------------------------------------------------
+console.log("------------------------------------")
+if(a){
+    console.log("hello")
+}
+else{
+    console.log("bye")
+}
+//-------------------------------------------------------
+console.log("------------------------------------")
+if(""){
+    console.log("hello")
+}
+else{
+    console.log("bye")
+}
+//-------------------------------------------------------
+console.log("------------------------------------")
+if(" "){
+    console.log("hello")
+}
+else{
+    console.log("bye")
+}
+//-------------------------------------------------------
+console.log("------------------------------------")
+if(3<5){
+    console.log("hello")
+}
+else{
+    console.log("bye")
+}
+//-------------------------------------------------------
+console.log("------------------------------------")
+if("abc"){
+    console.log("hello")
+}
+else{
+    console.log("bye")
+}
+//-------------------------------------------------------
+console.log("------------------------------------")
+if(1){
+    console.log("hello")
+}
+else{
+    console.log("bye")
+}
+//-------------------------------------------------------
+console.log("------------------------------------")
+if(true){
+    console.log("hello")
+}
+else{
+    console.log("bye")
+}
+//-------------------------------------------------------
+console.log("------------------------------------")
+if(false){
+    console.log("hello")
+}
+else{
+    console.log("bye")
+}
+//-------------------------------------------------------
+console.log("------------------------------------")
+
+if(false){
+    console.log("hello")
+}
+else{
+    console.log("bye")
+}
+//-------------------------------------------------------
+console.log("------------------------------------")
+//truthy = [],{}
+if({}){
+    console.log("hello")
+}
+else{
+    console.log("bye")
+}
