@@ -64,3 +64,5 @@ console.log(str.padStart(10,'*'))
 console.log(str.padEnd(10,'*'))
 
 //join , split
+//replace() , replaceAll(), // join()
+// split() 
