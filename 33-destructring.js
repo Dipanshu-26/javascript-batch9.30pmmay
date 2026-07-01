@@ -84,3 +84,4 @@ console.log(father)
 
 console.log(info2.firstName)
 
+//rest and spread operator
