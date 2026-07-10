@@ -20,8 +20,7 @@ class Person {
 let dip = new Person()
 dip.setFirstName("dipanshu")
 console.log(dip.getFirstName())
-// dip.fname = "neel"
-// console.log(dip.getFirstName())
+
 
 //--------------------------------------------------------------------
 //get set keywords 
