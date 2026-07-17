@@ -129,3 +129,96 @@ let wb = new WorldBank()
 console.log(wb.saveInterest())
 console.log(wb.loanInterestRate())
 //-----------------------------------------------------------------------------------
+
+//duck typing
+
+function makeSound(animal){
+    animal.sound()
+}
+
+let dog={
+    sound(){
+        console.log("Bark")
+    }
+}
+
+let cat = {
+    sound(){
+        console.log("mew")
+    }
+}
+
+let human = {
+    sound(){
+        console.log("talk")
+    }
+}
+
+makeSound(dog)
+makeSound(cat)
+
+//-----------------------------------------------------------------------
+class Dog{
+    talk(){
+        console.log("Bho Bho")
+    }
+}
+
+class Cat{
+    talk(){
+        console.log("Mew Mew")
+    }
+}
+
+class Duck{
+    talk(){
+        console.log("Quack Quack")
+    }
+}
+
+function call_talk(obj){
+    obj.talk()
+}
+
+let d = new Dog()
+let c = new Cat()
+let dk = new Duck()
+
+call_talk(d)
+call_talk(dk)
+
+//--------------------------------------------------------------------------
+
+class Audi{
+    start(){
+        console.log("Audi satrts")
+    }
+
+    stop(){
+        console.log("Audi stops")
+    }
+}
+
+class Bike{
+    start(){
+        console.log("Bike satrts")
+    }
+
+    stop(){
+        console.log("bike stops")
+    }
+}
+
+function call_start(obj){
+    obj.start()
+}
+
+function call_stop(obj){
+    obj.stop()
+}
+
+let ad = new Audi()
+let bk = new Bike()
+
+call_start(ad)
+call_stop(ad)
