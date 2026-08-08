@@ -19,3 +19,5 @@ console.log("ByClass",byClass)
 //by attribute
 let byAtt = document.querySelector('[name="nm1"]')
 console.log("ByAtt",byAtt)
+
+//
